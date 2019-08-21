@@ -30,8 +30,10 @@ end
 
 def initial_round
   # code #initial_round here
-  2.times {deal_card}
+  total = 0
+  2.times {total += deal_card}
   
+  display_card_total
 end
 
 def hit?
