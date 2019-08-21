@@ -44,8 +44,9 @@ def hit? (total)
   input = get_user_input
   
   if input == 'h'
-    deal_card
-  else if 
+    total += deal_card
+  elsif input == 's'
+    
   
 end
 
