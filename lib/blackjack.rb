@@ -33,7 +33,7 @@ def initial_round
   total = 0
   2.times {total += deal_card}
   
-  display_card_total
+  display_card_total(total)
 end
 
 def hit?
