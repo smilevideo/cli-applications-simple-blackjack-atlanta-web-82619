@@ -47,6 +47,7 @@ def hit? (total)
     total += deal_card
   elsif input != 's'
     invalid_command
+    prompt_user
   end
     
   return total
@@ -55,7 +56,7 @@ end
 def invalid_command
   # code invalid_command here
   puts 'Please enter a valid command'
-  prompt_user
+
 end
 
 #####################################################
