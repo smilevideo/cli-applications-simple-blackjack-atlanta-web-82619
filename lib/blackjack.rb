@@ -50,8 +50,6 @@ def hit? (total)
     prompt_user
     get_user_input
   end
-  
-  display_card_total(total)
     
   return total
 end
@@ -72,9 +70,9 @@ def runner
   
   while (total <= 21) do
     total = hit?(total)
+    display_card_total
   end
   
-
   end_game(total)
 end
     
