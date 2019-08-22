@@ -51,7 +51,7 @@ def hit? (total)
     get_user_input
   end
   
-  display_card_total
+  display_card_total(total)
     
   return total
 end
